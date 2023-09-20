@@ -1,0 +1,97 @@
+
+
+@include('layout.header')
+
+<!-- start hero -->
+<section class="hero-one position-relative bg-black" id="about"  style="background-image: url(images/personal/main-bg.png); background-size: cover; background-position: center center;">
+    <div class="container">
+        <div class="row align-items-center justify-content-center py-100">
+            <div class="col-lg-7 text-center py-5 text-center">
+                <h5 class="head-title py-4" aria-label="Resume"></h5>                        
+            </div><!--end col-->                  
+        </div><!--end row-->             
+    </div><!-- end container -->
+</section>
+<!-- end hero -->
+<div class="position-relative">
+    <div class="shape overflow-hidden text-white">
+        <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
+        </svg>
+    </div>
+</div>
+<!-- start resume -->
+<section class="section">
+    <div class="container">     
+        <div class="row">
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="main-timeline">
+                            <div class="timeline">
+                                <a href="#" class="timeline-content">
+                                    <div class="timeline-icon">
+                                        <i class="ti ti-trophy"></i>
+                                    </div>
+                                    <div class="inner-content">
+                                        <h3 class="title">GHI Themes - Web & App IT Company</h3>
+                                        <p class="description">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo
+                                        </p>
+                                    </div>
+                                    <div class="timeline-year"><span>2019-22</span></div>
+                                </a>
+                            </div>
+                            <div class="timeline">
+                                <a href="#" class="timeline-content">
+                                    <div class="timeline-icon">
+                                        <i class="ti ti-users"></i>
+                                    </div>
+                                    <div class="inner-content">
+                                        <h3 class="title">ABC themes - Web Design IT Company</h3>
+                                        <p class="description">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo
+                                        </p>
+                                    </div>
+                                    <div class="timeline-year"><span>2014-18</span></div>
+                                </a>
+                            </div>
+                            <div class="timeline">
+                                <a href="#" class="timeline-content">
+                                    <div class="timeline-icon">
+                                        <i class="ti ti-school"></i>
+                                    </div>
+                                    <div class="inner-content">
+                                        <h3 class="title">MSc IT Master Degree</h3>
+                                        <p class="description">
+                                            Harvard University is an educational institution that offers graduate, professional, and research programs in the fields of and public health.
+                                        </p>
+                                    </div>
+                                    <div class="timeline-year"><span>2012-13</span></div>
+                                </a>
+                            </div>
+                            <div class="timeline">
+                                <a href="#" class="timeline-content">
+                                    <div class="timeline-icon">
+                                        <i class="ti ti-building"></i>
+                                    </div>
+                                    <div class="inner-content">
+                                        <h3 class="title">High / Higher secondary school</h3>
+                                        <p class="description">
+                                            Princeton University is an educational institution that offers graduate, professional, and research programs in the fields of and public health.
+                                        </p>
+                                    </div>
+                                    <div class="timeline-year"><span>2007-08</span></div>
+                                </a>
+                            </div>
+                        </div>
+                    </div><!-- end col -->                                                       
+                </div><!-- end row -->
+                
+            </div><!-- end col -->
+        </div><!-- end row -->
+    </div><!-- end container -->
+</section>
+<!-- end resume -->
+
+@include('layout.footer')
